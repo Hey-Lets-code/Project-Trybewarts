@@ -1,89 +1,101 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Ubuntu";
-  }
-  
-  header {
-    display: flex;
-    background-color: rgb(50, 167, 145);
-    align-items: center;
-    justify-content: space-between;
-    color: white;
-    width: 100%;
-  }
-  
-  #form-header {
-    display: flex;
-    margin: 10px;
-    padding: 8px;
-  }
-  
-  body {
-    background-color: lightsalmon;
-  }
-  
-  .input-style {
-    padding: 10px;
-    width: 150px;
-    border-radius: 10px;
-    margin: 5px;
-    text-decoration: solid;
-    border: 3px solid white;
-    background-color: white;
-  }
-  
-  .form-evaluation-section-div {
-      display:flex;
-      flex-grow: 1;
-      flex-wrap: wrap;
-  }
-  
-  .button-style {
-    background-color: purple;
-    border: 3px solid purple;
-    color: white;
-    text-decoration: solid;
-  }
-  
-  main {
-    display: flex;
-    flex-flow: row wrap;
-    border: solid red;
-  }
-  
-  #evaluation-form {
-    display: flex;
-    flex-direction: column;
-    width: 675px;
-  }
-  
-  #trybewarts-forms-logo {
-    align-content: space-around;
-    justify-content: center;
-  }
-  
-  #form-section {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-  }
-  
-  .section-form-input {
-    padding: 10px;
-    width: 250px;
-    border-radius: 10px;
-    margin: 2px;
-    text-decoration: solid;
-    border: 3px solid white;
-    background-color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu";
+}
+
+header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  width: 100%;
+}
+
+#form-header {
+  display: flex;
+  margin: 10px;
+  padding: 8px;
+}
+
+body {
+  background-color: lightsalmon;
+}
+
+.input-style {
+  padding: 10px;
+  width: 150px;
+  border-radius: 10px;
+  margin: 5px;
+  text-decoration: solid;
+  border: 3px solid white;
+  background-color: white;
+}
+
+.form-evaluation-section-div {
+    display:flex;
     flex-grow: 1;
-  }
-  
-  hr {
-    width: 650px;
-    margin: 15px;
-    color: grey;
-  }
-  
+    flex-wrap: wrap;
+}
+
+.div-subject {
+  display: flex;
+}
+
+.button-style {
+  background-color: purple;
+  border: 3px solid purple;
+  color: white;
+  text-decoration: solid;
+}
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
+}
+
+#trybewarts-forms-logo {
+  align-content: space-around;
+  justify-content: center;
+}
+
+#form-section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.section-form-input {
+  padding: 10px;
+  width: 250px;
+  border-radius: 10px;
+  margin: 2px;
+  text-decoration: solid;
+  border: 3px solid white;
+  background-color: white;
+  flex-grow: 1;
+}
+
+hr {
+  width: 650px;
+  margin: 15px;
+  color: grey;
+}
+
+.family {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox-subject {
+  display: flex;
+  flex-wrap: wrap;
+}

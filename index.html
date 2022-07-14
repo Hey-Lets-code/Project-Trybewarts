@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="header">
-        <img src="images/trybewarts-header-logo.svg" alt="Logo">
+        <img src="images/trybewarts-header-logo.svg" alt="Logo" width="50px">
         <h1 id="trybewarts-header-title>Trybewarts">Trybewarts</h1>
         <section id="section-header"></section>
             <form method="post" id="form-header">
@@ -73,9 +73,82 @@
                         </label>
                     </div>
             </section>
-            </form>
-            <img src="" alt="Logo do form da TrybeWart" id="trybewarts-forms-logo" width="500px">
             <hr>
+            <section class="family">
+                <label for="label-family">Qual a sua família?</label>
+                <div class="family">
+                <label for="frontend">
+                    <input type="radio" name="family" id="frontend">Frontend
+                </label>
+                </div>
+                <div>
+                    <label for="backend">
+                        <input type="radio" name="family" id="backend">Backend
+                    </label>
+                </div>
+                <div>
+                    <label for="fullstack">
+                        <input type="radio" name="family" id="fullstack">Fullstack
+                    </label>
+                </div>
+        </section>
+        <section class="checkbox-subject">
+            <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+                <div class='div-subject'>
+                    <input type="checkbox" name="hofs" id="hofs" class="subject" value="HoFs" >
+                    <label for="hofs">HoFs </label>
+                </div>
+                <div class='div-subject'>
+                    <input type="checkbox" name="jest" id="jest" class="subject" value="Jest" >
+                    <label for="jest">Jest </label>
+                </div>
+                <div class='div-subject'>
+                    <input type="checkbox" name="promises" id="promises" class="subject" value="Promises" >
+                    <label for="promises"> Promises </label>
+                </div>
+                <div>
+                    <input type="checkbox" name="react" id="react" class="subject" value="React" >
+                    <label for="react">React </label>
+                </div>
+                <div class='div-subject'>
+                    <input type="checkbox" name="sql" id="sql" class="subject" value="SQL" >
+                    <label for="sql">SQL </label>
+                </div>
+                <div class='div-subject'>
+                    <input type="checkbox" name="python" id="python" class="subject" value="Python">
+                    <label for="python">Python </label>
+                </div>
+        </section>
+        <hr>
+        <section class="">
+        <label for="" id="label-rate">Como você avalia a Trybewarts?
+        </label>
+            <input type="radio" id="" name="rate" value="1">1
+            <input type="radio" id="" name="rate" value="2">2
+            <input type="radio" id="" name="rate" value="3">3
+            <input type="radio" id="" name="rate" value="4">4
+            <input type="radio" id="" name="rate" value="5">5
+            <input type="radio" id="" name="rate" value="6">6
+            <input type="radio" id="" name="rate" value="7">7
+            <input type="radio" id="" name="rate" value="8">8
+            <input type="radio" id="" name="rate" value="9">9
+            <input type="radio" id="" name="rate" value="10">10
+        </section>
+        <section>
+        <label for="" class="textarea"> Deixe seu comentário:</label>
+        <textarea name="" id="" cols="30" rows="5" maxlength="500"></textarea>
+    </section>
+    <section>
+        <div>
+            <label for="agreement" id="label-infos">"Você concorda com o uso das informações acima?"</label>
+            <input type="checkbox" name="promocoes" id="agreement" required>
+            <button type="submit" id="submit-btn">Enviar</button>
+            </div>
+    </section>
+            </form>
+            <img src="images/trybewarts-colored.svg" alt="Logo do form da TrybeWart" id="trybewarts-forms-logo" width="500px">
+            <hr>
+
     </main>
 </body>
 </html>
