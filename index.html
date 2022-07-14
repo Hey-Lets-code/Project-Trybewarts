@@ -9,10 +9,10 @@
 </head>
 <body>
     <header class="header">
-        <img src="images/trybewarts-header-logo.svg" alt="Logo" width="50px">
-        <h1 id="trybewarts-header-title>Trybewarts">Trybewarts</h1>
-        <section id="section-header"></section>
-            <form method="post" id="form-header">
+        <img src='images/trybewarts-header-logo.svg' alt="Logo" width='50px' class='trybewarts-header-logo'>
+        <h1 id='trybewarts-header-title'>Trybewarts</h1>
+        <section id="section-header">
+            <form method="post" id="form-header" class="trybewarts-login">
             <div>
             <label for="email"></label>
         <input type="email" name="email" id="email" class="input-style" placeholder="Email" required>
@@ -21,10 +21,9 @@
             <label for="password"></label>
             <input type="password" name="password" id="password" class="input-style" placeholder="Senha" required>
         </div>
-        <section>
+        <div>
             <label for="button"></label>
-            <button type="submit" id="button" class="input-style button-style">Entrar</button>
-        </div>
+            <button type="submit" id="button-forms" class="input-style button-style">Entrar</button>
         </div>
     </form>
 </section>
@@ -56,25 +55,24 @@
                 </section>
                 <hr>
                 <section>
-                    <label for="label-family">Qual a sua família?</label>
+                    <label for="label-family" id="label-family">Qual sua família?</label>
                     <div>
                     <label for="frontend">
-                        <input type="radio" name="family" id="frontend">Frontend
+                        <input type="radio" name="family" id="frontend" value="Frontend">Frontend
                     </label>
                     </div>
                     <div>
                         <label for="backend">
-                            <input type="radio" name="family" id="backend">Backend
+                            <input type="radio" name="family" id="backend" value="Backend">Backend
                         </label>
                     </div>
                     <div>
                         <label for="fullstack">
-                            <input type="radio" name="family" id="fullstack">Fullstack
+                            <input type="radio" name="family" id="fullstack" value="FullStack">Fullstack
                         </label>
                     </div>
             </section>
-            <hr>
-            <section class="family">
+            <!-- <section class="family">
                 <label for="label-family">Qual a sua família?</label>
                 <div class="family">
                 <label for="frontend">
@@ -91,38 +89,39 @@
                         <input type="radio" name="family" id="fullstack">Fullstack
                     </label>
                 </div>
-        </section>
+        </section> -->
         <section class="checkbox-subject">
-            <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
-                <div class='div-subject'>
+            <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?
+                <!-- <div class='div-subject'> -->
                     <input type="checkbox" name="hofs" id="hofs" class="subject" value="HoFs" >
-                    <label for="hofs">HoFs </label>
-                </div>
-                <div class='div-subject'>
+                    <!-- <label for="hofs">HoFs </label> -->
+                <!-- </div> -->
+                <!-- <div class='div-subject'> -->
                     <input type="checkbox" name="jest" id="jest" class="subject" value="Jest" >
-                    <label for="jest">Jest </label>
-                </div>
-                <div class='div-subject'>
+                    <!-- <label for="jest">Jest </label> -->
+                <!-- </div> -->
+                <!-- <div class='div-subject'> -->
                     <input type="checkbox" name="promises" id="promises" class="subject" value="Promises" >
-                    <label for="promises"> Promises </label>
-                </div>
-                <div>
+                    <!-- <label for="promises"> Promises </label> -->
+                <!-- </div> -->
+                <!-- <div> -->
                     <input type="checkbox" name="react" id="react" class="subject" value="React" >
-                    <label for="react">React </label>
-                </div>
-                <div class='div-subject'>
+                    <!-- <label for="react">React </label> -->
+                <!-- </div> -->
+                <!-- <div class='div-subject'> -->
                     <input type="checkbox" name="sql" id="sql" class="subject" value="SQL" >
-                    <label for="sql">SQL </label>
-                </div>
-                <div class='div-subject'>
+                    <!-- <label for="sql">SQL </label> -->
+                <!-- </div> -->
+                <!-- <div class='div-subject'> -->
                     <input type="checkbox" name="python" id="python" class="subject" value="Python">
-                    <label for="python">Python </label>
-                </div>
+                    <!-- <label for="python">Python </label> -->
+                <!-- </div> -->
+            </label>
         </section>
         <hr>
         <section class="">
-        <label for="" id="label-rate">Como você avalia a Trybewarts?
-        </label>
+        <label for="" id="label-rate">Como você avalia a Trybewarts?</label>
+        
             <input type="radio" id="" name="rate" value="1">1
             <input type="radio" id="" name="rate" value="2">2
             <input type="radio" id="" name="rate" value="3">3
@@ -146,8 +145,8 @@
             </div>
     </section>
             </form>
-            <img src="images/trybewarts-colored.svg" alt="Logo do form da TrybeWart" id="trybewarts-forms-logo" width="500px">
-            <hr>
+            <img src="images/trybewarts-colored.svg" alt="Logo do form da TrybeWart" id="trybewarts-forms-logo" height="500px">
+            <footer class="rodape">"Direitos reservados à Trybewarts©"</footer> 
 
     </main>
 </body>
