@@ -94,7 +94,9 @@ hr {
   flex-direction: column;
 }
 
-.checkbox-subject {
+/* .checkbox-subject {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-}
+  justify-content: space-around;
+} */
