@@ -94,9 +94,22 @@ hr {
   flex-direction: column;
 }
 
-/* .checkbox-subject {
+.section-familia-conteudo {
+  display: flex;
+  justify-content: space-around;
+}
+
+.checkbox-divs-subject {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.checkbox-divs-subject div {
+  width: 30%;
+}
+
+.textarea-section {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-around;
-} */
+  margin: 15px;
+}

@@ -23,13 +23,15 @@
         </div>
         <div>
             <label for="button"></label>
-            <button type="submit" id="button-forms" class="input-style button-style">Entrar</button>
+            <button type="submit" id="button" class="input-style button-style">Entrar</button>
         </div>
     </form>
 </section>
     </header>
     <main>
+        
             <form method="post" id="evaluation-form">
+                <h2>Formulário de Avaliação</h2>
                <section id="form-section">
                 <div class='form-evaluation-section-div'>
                     <label for="input-name"></label>
@@ -54,6 +56,7 @@
                 </div>
                 </section>
                 <hr>
+                <section class="section-familia-conteudo">
                 <section>
                     <label for="label-family" id="label-family">Qual sua família?</label>
                     <div>
@@ -72,57 +75,42 @@
                         </label>
                     </div>
             </section>
-            <!-- <section class="family">
-                <label for="label-family">Qual a sua família?</label>
-                <div class="family">
-                <label for="frontend">
-                    <input type="radio" name="family" id="frontend">Frontend
-                </label>
-                </div>
-                <div>
-                    <label for="backend">
-                        <input type="radio" name="family" id="backend">Backend
-                    </label>
-                </div>
-                <div>
-                    <label for="fullstack">
-                        <input type="radio" name="family" id="fullstack">Fullstack
-                    </label>
-                </div>
-        </section> -->
         <section class="checkbox-subject">
             <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+            <section class="checkbox-divs-subject">
                 <div class='div-subject'>
-                    <label for="hofs">HoFs
+                    <label for="hofs">
                         <input type="checkbox" name="hofs" id="hofs" class="subject" value="HoFs" >
-                    </label>
+                    HoFs</label>
                 </div>
                 <div class='div-subject'>
-                    <label for="jest">Jest
+                    <label for="jest">
                         <input type="checkbox" name="jest" id="jest" class="subject" value="Jest" >
-                    </label>
+                    Jest</label>
                 </div>
                 <div class='div-subject'> 
-                    <label for="promises"> Promises 
+                    <label for="promises">
                         <input type="checkbox" name="promises" id="promises" class="subject" value="Promises" >
-                    </label>
+                    Promises</label>
                 </div>
                 <div>
-                    <label for="react">React 
+                    <label for="react"> 
                         <input type="checkbox" name="react" id="react" class="subject" value="React" >
-                    </label>
+                    React</label>
                 </div>
                 <div class='div-subject'>
-                    <label for="sql">SQL 
+                    <label for="sql"> 
                         <input type="checkbox" name="sql" id="sql" class="subject" value="SQL" >
-                    </label>
+                    SQL</label>
                 </div>
                 <div class='div-subject'>
-                    <label for="python">Python 
+                    <label for="python"> 
                         <input type="checkbox" name="python" id="python" class="subject" value="Python">
-                    </label>
+                    Python</label>
                 </div>
+            </section>
         </section>
+    </section>
         <hr>
         <section class="">
         <label for="" id="label-rate">Como você avalia a Trybewarts?</label>
@@ -138,21 +126,22 @@
             <input type="radio" id="" name="rate" value="9">9
             <input type="radio" id="" name="rate" value="10">10
         </section>
-        <section>
+        <section class="textarea-section">
         <label for="" class="textarea"> Deixe seu comentário:</label>
         <textarea name="" id="" cols="30" rows="5" maxlength="500"></textarea>
     </section>
     <section>
         <div>
             <label for="agreement" id="label-infos">"Você concorda com o uso das informações acima?"</label>
-            <input type="checkbox" name="promocoes" id="agreement" required>
-            <button type="submit" id="submit-btn">Enviar</button>
+            <input type="checkbox" name="promocoes" id="agreement">
             </div>
+            <button type="submit" id="submit-btn" disabled>Enviar</button>
     </section>
             </form>
             <img src="images/trybewarts-colored.svg" alt="Logo do form da TrybeWart" id="trybewarts-forms-logo" height="500px">
             <footer class="rodape">"Direitos reservados à Trybewarts©"</footer> 
 
     </main>
+    <script src="script.js"></script>
 </body>
 </html>

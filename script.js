@@ -1,12 +1,32 @@
-const email = document.querySelector('#email');
-const senha = document.querySelector('#password');
-const buttonForms = document.querySelector('#button-forms');
+const email = 'tryber@teste.com';
+const senha = '123456';
 
-function mensagemAlert() {
-  if (email === 'tryber@teste.com' && senha === '123456') {
-    return alert('Olá, Tryber!');
-  }
-  alert('Email ou senha inválidos');
+function login() {
+  const botao = document.getElementById('button');
+
+  botao.addEventListener('click', (event) => {
+    event.preventDefault();
+    const loginEmail = document.getElementById('email');
+    const loginSenha = document.getElementById('password');
+    if (loginEmail.value === email && loginSenha.value === senha) {
+      alert('Olá, Tryber!');
+    } else {
+      alert('Email ou senha inválidos.');
+    }
+  });
 }
 
-buttonForms.addEventListener('click', mensagemAlert);
+login();
+
+const submitButton = document.getElementById('submit-btn');
+const agreement = document.getElementById('agreement');
+
+submitButton.setAttribute('disabled', true);
+
+agreement.addEventListener('click', () => {
+  if (agreement.checked) {
+    submitButton.removeAttribute('disabled');
+  } else {
+    submitButton.setAttribute('disabled', true);
+  }
+});
